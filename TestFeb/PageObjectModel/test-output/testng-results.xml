@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33900" started-at="2017-10-31T07:01:25Z" finished-at="2017-10-31T07:01:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33900" started-at="2017-10-31T07:01:25Z" finished-at="2017-10-31T07:01:59Z">
+      <class name="com.tests.MercuryToursTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tests.MercuryToursTest@29774679]" name="beforeTest" is-config="true" duration-ms="8601" started-at="2017-10-31T12:31:25Z" finished-at="2017-10-31T12:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testMercuryTours()[pri:0, instance:com.tests.MercuryToursTest@29774679]" name="testMercuryTours" duration-ms="22223" started-at="2017-10-31T12:31:34Z" finished-at="2017-10-31T12:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryTours -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.MercuryToursTest@29774679]" name="afterTest" is-config="true" duration-ms="2982" started-at="2017-10-31T12:31:56Z" finished-at="2017-10-31T12:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tests.MercuryToursTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

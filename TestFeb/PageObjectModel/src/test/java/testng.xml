@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Test1">
+		<parameter name="browser" value="firefox">
+		</parameter>
+		<parameter name="node" value="http://10.211.157.211:9999/wd/hub"></parameter>
+		<classes>
+			<class name="com.tests.MercuryToursTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<parameter name="browser" value="firefox">
+		</parameter>
+		<parameter name="node" value="http://10.211.157.183:1007/wd/hub"></parameter>
+		<classes>
+			<class name="com.tests.MercuryToursTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test3">
+		<parameter name="browser" value="chrome">
+		</parameter>
+		<parameter name="node" value="http://10.211.157.155:9977/wd/hub"></parameter>
+		<classes>
+			<class name="com.tests.MercuryToursTest" />
+		</classes>
+	</test>
+	<test name="Test4">
+		<parameter name="browser" value="ie">
+		</parameter>
+		<parameter name="node" value="http://10.211.157.241:1234/wd/hub"></parameter>
+		<classes>
+			<class name="com.tests.MercuryToursTest" />
+		</classes>
+	</test>
+	<test name="Test5">
+		<parameter name="browser" value="chrome">
+		</parameter>
+		<parameter name="node" value=" http://10.211.157.171:1989/wd/hub"></parameter>
+		<classes>
+			<class name="com.tests.MercuryToursTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
