@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+
+<listeners>
+<listener class-name="com.tests.MyListener"></listener>
+</listeners>
+
+<test name="test1">
+<classes>
+<class name="com.tests.NewTest"></class>
+</classes>
+</test>
+
+
+  <!-- <test name="Test">
+  <groups>
+  	<define name="all">
+  	<include name="A"></include>
+  	<include name="C"></include>
+  	</define>
+  
+  	<run>
+  		<include name="all"></include>
+  		<exclude name="B"></exclude>
+  	</run>
+  
+  </groups>
+    <classes>
+      <class name="com.tests.GroupTest"/>
+    </classes>
+    
+  
+  </test> Test -->
+</suite> <!-- Suite -->

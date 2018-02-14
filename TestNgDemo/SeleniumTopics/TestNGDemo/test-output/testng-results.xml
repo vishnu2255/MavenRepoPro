@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63" started-at="2017-11-01T06:39:02Z" finished-at="2017-11-01T06:39:02Z">
+    <groups>
+      <group name="A">
+        <method signature="GroupTest.test10001()[pri:0, instance:com.tests.GroupTest@5b275dab]" name="test10001" class="com.tests.GroupTest"/>
+      </group> <!-- A -->
+    </groups>
+    <test name="Test" duration-ms="63" started-at="2017-11-01T06:39:02Z" finished-at="2017-11-01T06:39:02Z">
+      <class name="com.tests.GroupTest">
+        <test-method status="PASS" signature="test10001()[pri:0, instance:com.tests.GroupTest@5b275dab]" name="test10001" duration-ms="15" started-at="2017-11-01T12:09:02Z" finished-at="2017-11-01T12:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10001 -->
+      </class> <!-- com.tests.GroupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
